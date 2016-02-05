@@ -1,3 +1,8 @@
 body {
   font-family: "Arial", sans-serif;
 }
+
+.photo {
+  border-color: gray;
+  border-width: 10;
+}
