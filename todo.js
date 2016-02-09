@@ -13,8 +13,8 @@ function addItem() {
   var text = window.prompt("New To-Do Item");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   // console.log("Yup!");
-  $("ol").append("<li>" + text + " " + delete_link + "</li>");
-  var numItems = $("li").length;
+  $("ol").append("<li><i>" + text + " " + delete_link + "</i></li>");
+  var numItems = $("i").length;
 
   // Challenge: Differentiate between 1 item vs. more items
   if (numItems == 1) {
