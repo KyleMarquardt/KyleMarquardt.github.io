@@ -6,3 +6,6 @@ body {
   border-color: gray;
   border-width: 10;
 }
+
+.bimg {background-image: url("http://lorelleteaches.files.wordpress.com/2012/08/seamless-background-image-tile.jpg?w=584");
+}

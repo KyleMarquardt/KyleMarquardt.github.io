@@ -33,5 +33,4 @@ function deleteItem(event) {
   console.info(event);
   // $(event.target).remove();
   $(event.target).parent().fadeOut();
-
 }
